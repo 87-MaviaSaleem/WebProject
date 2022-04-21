@@ -1,0 +1,16 @@
+.header-container {
+  margin: 0px 50px;
+}
+.header-image {
+  height: 433px;
+  width: 940px;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 964) {
+  .header-container {
+    margin: 0px 0px;
+  }
+}
