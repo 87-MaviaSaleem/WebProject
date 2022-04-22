@@ -1,0 +1,19 @@
+.bio {
+  background-color: #e4e6eb;
+  cursor: pointer;
+}
+.icon1 {
+  margin-left: 5%;
+}
+.icon2 {
+  margin-left: 7%;
+}
+.shotimg {
+  height: 40px;
+  width: 40px;
+}
+
+.postimg {
+  object-fit: contain;
+  width: 715px;
+}

@@ -1,0 +1,11 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.myimg {
+  width: 245px;
+  height: 245px;
+  object-fit: cover;
+}

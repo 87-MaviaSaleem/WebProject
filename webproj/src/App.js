@@ -4,6 +4,10 @@ function App() {
   return (
     <div>
       <Header />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
