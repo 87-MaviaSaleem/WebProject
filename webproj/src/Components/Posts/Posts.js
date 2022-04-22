@@ -105,6 +105,56 @@ export const Posts = () => {
               </div>
             </div>
             <hr />
+
+            <div className="row">
+              <div className="col-1 text-left " style={{ top: 10 }}>
+                <img
+                  className="rounded-circle shotimg"
+                  src="https://scontent.flhe3-2.fna.fbcdn.net/v/t1.6435-1/178698020_1216776408781553_3981466102089430970_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeGBjGizE6tCx9MNU-PKmiZfQSwoPpI364NBLCg-kjfrg0KavjS4-C-3S_2amW4o3NQjssCb9ZGt8enMAdKIRFeo&_nc_ohc=ubb9fc0WKdEAX_EiUJo&_nc_ht=scontent.flhe3-2.fna&oh=00_AT_tDiygHUFByZ9rxHgW4CFSS66I7bwTV-rsc8WohxVSug&oe=62874B92"
+                  alt=""
+                ></img>
+              </div>
+              <div className="col-9">
+                <h5 style={{ margin: 0 }}>Mohammad Mavia</h5>
+                <p>15 April at 04:01</p>
+              </div>
+              <div className="col-2 text-right">
+                <strong>...</strong>
+              </div>
+            </div>
+            <div>
+              <img
+                className="postimg rounded"
+                alt=""
+                src="https://peacetourism.org/wp-content/uploads/2019/05/Peace-Tourism.jpg"
+              ></img>
+            </div>
+            <div className="row mt-3">
+              <div className="col-6  text-left">
+                <span>10</span>
+                <span> Likes</span>
+              </div>
+              <div className="col-6 text-right">
+                <span>6 Comments</span>
+              </div>
+            </div>
+
+            <hr />
+            <div className="row mt-3">
+              <div className="col-6  text-center">
+                <span>
+                  <FontAwesomeIcon icon={faThumbsUp} />
+                </span>
+                <span> Like </span>
+              </div>
+              <div className="col-6 text-center">
+                <span>
+                  <FontAwesomeIcon icon={faMessage} />
+                </span>
+                <span> Comment</span>
+              </div>
+            </div>
+            <hr />
           </div>
         </div>
       </div>
